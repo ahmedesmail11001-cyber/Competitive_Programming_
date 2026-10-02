@@ -1,7 +1,7 @@
 ## 🏆 Trophies Wall
 
 ### 📊 Total Problems Solved
-* 🚀 *C++: 4*
+* 🚀 *C++: 9*
 
 ### 💡 Milestone Problems & Key Techniques
 * **Problem name | Repo path | Problem link**
