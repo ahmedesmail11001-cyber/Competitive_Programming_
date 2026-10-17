@@ -5,22 +5,18 @@ int main(){
     int x;
     cin >> x;
 
-    bool flag = true;
+    bool prime = true;
 
-    // i*i <= x same as i <= sqrt(x)
-    // if there is no divisible for x from 2->sqrt(x) so it prime
-    for (int i=2; i*i <= x; i++) {
-        if (x%i==0) {
-            flag = false;
-            break;
-        }
+    for (int i=2; i<x; i++) {
+        if (x%i==0) prime = false;
     }
 
-
-    if (flag)
+    if (prime == true){
         cout << "YES" << '\n';
-    else
+    }
+    else {
         cout << "NO" << '\n';
+    }
 
 
     return 0;
